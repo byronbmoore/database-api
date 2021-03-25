@@ -1,0 +1,15 @@
+    MYSQL
+docker run --name mysql -p 127.0.0.1:3306:3306 -e MYSQL_ROOT_PASSWORD=123 -d mysql
+
+mysql -u root -p 
+    july
+
+
+
+    MONGODB
+docker run --name mongodb -p 127.0.0.1:27017:27017  -v /opt/mongodb/data:/data/db -d mongo
+# https://www.mongodb.com/basics/create-database
+
+show dbs
+use [db]
+
